@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "98317C55-92F5-4F7D-84F5-B5113F9A7DFB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Toggle.xcodeproj",
+      "identifier" : "2921CCD62B62CD3900BF240C",
+      "name" : "Toggle"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Toggle.xcodeproj",
+        "identifier" : "2921CCE72B62CD3B00BF240C",
+        "name" : "ToggleTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Toggle.xcodeproj",
+        "identifier" : "2921CCF12B62CD3B00BF240C",
+        "name" : "ToggleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
